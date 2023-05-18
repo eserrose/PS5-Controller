@@ -1,0 +1,27 @@
+{
+  "name": "ps5-controller",
+  "version": "1.0.0",
+  "description": "A simple ps5 dualsense visualization using bluetooth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "pS5",
+    "dualsense",
+    "controller"
+  ],
+  "author": "EserRose",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.0.9",
+    "dualsense-ts": "file:libs/dualsense-ts",
+    "electron": "^24.3.0",
+    "electron-serve": "^1.1.0",
+    "node-hid": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node-hid": "^1.3.1"
+  }
+}
